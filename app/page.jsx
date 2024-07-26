@@ -15,7 +15,7 @@ const Home = () => {
           {" "}
           As adedicated software engineer proficient in Full Stack and other
           cutting-edge technologies, I am eager to contribute my technical
-          skills and innovative mindset to a dynamic organization. My goal is to
+          skills and innovative mindset<br/> to a dynamic organization. My goal is to
           leverage my expertise in full stack development and cloud computing to
           drive technological advancements and team success.
         </p>
