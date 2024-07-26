@@ -230,6 +230,7 @@
 }
 
 /* Contact form  */
+
 .left-contactContainer {
   flex-basis: 35%;
 }
@@ -286,6 +287,72 @@
 
   background:#00abf0;
 }
+
+.btn_contact :link{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  background: #081b29;
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-size: 19px;
+  color: #081b29;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+
+}
+
+/* ABOUT SECTION  */
+.tab-link {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.tab-link.active {
+  font-weight: bold;
+  color: #00abf0;
+  border-bottom: 2px solid #00abf0; 
+}
+
+
+.about-col-1 {
+  flex-basis: 35%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.about-col-2 {
+  flex-basis: 35%;
+}
+
+.tab-content {
+  color: #a2a6aa;
+
+}
+
+.tab-content-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #00abf0;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  list-style-type: disc; 
+  padding-left: 20px;   
+}
+
+.skills-list li {
+  margin-bottom: 5px;    
+}
+
 
 
 

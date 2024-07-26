@@ -1,3 +1,5 @@
+
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedinIn,
@@ -12,9 +14,9 @@ import {
 
 const Contact = () => {
   return (
-    <div className="contact-container mt-10">
+    <div className="contact-container">
       <div className="row flex">
-        <div className="left-contactContainer">
+        <div className="left-contactContainer  mt-10">
           <p className="flex"><FontAwesomeIcon icon={faPaperPlane} width={20} height={20} className="mr-5"/> +92-3187734237</p>
           <p className="flex"><FontAwesomeIcon icon={faPhone} width={20} height={20} className="mr-5" /> hamzaazam994@gmail.com</p>
           <div className="about_icons">
@@ -28,6 +30,9 @@ const Contact = () => {
               <FontAwesomeIcon icon={faFacebook} className="fa-icon" />
             </a>
           </div>
+          <div className="btn_contact mt-28 ">
+            <Link href= "https://res.cloudinary.com/dfeek69mi/image/upload/f_auto,q_auto/cxkriowgmiymjadoucmk" className="p-3" >My CV</Link>
+        </div>
         </div>
         <div className="right-contactContainer">
           <h1>Contact Me</h1>
