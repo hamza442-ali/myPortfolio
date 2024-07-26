@@ -20,8 +20,8 @@ const Home = () => {
           drive technological advancements and team success.
         </p>
         <div className="btn_box">
-            <Link href= "/hireMe"> Hire Me</Link>
-            <Link href= "/work-history">Work History</Link>
+            <Link href= "/contact">Hire Me</Link>
+            <Link href= "https://res.cloudinary.com/dfeek69mi/image/upload/f_auto,q_auto/cxkriowgmiymjadoucmk">My CV</Link>
         </div>
       </div>
       <div className="home_icons  ">
